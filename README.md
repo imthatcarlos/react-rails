@@ -14,10 +14,10 @@ bundle install
 bundle exec rake db:create db:migrate
 ```
 
-## React components are found wihtin app/assets/javascripts/components
+## React components are found within app/assets/javascripts/components
 
 ### Rails is an MVC framework, so here is the flow:
 
-routes.rb => root to IndexController, action 'show'
-app/controllers/index_controller.rb => action 'show', render view 'show.html.erb'
-app/views/index/show.html.erb => renders SampleComponent
+#### routes.rb => root to IndexController, action 'show'
+#### app/controllers/index_controller.rb => action 'show', render view 'show.html.erb'
+#### app/views/index/show.html.erb => renders SampleComponent
