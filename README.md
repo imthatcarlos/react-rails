@@ -15,8 +15,6 @@ bundle exec rake db:create db:migrate
 rails server
 ```
 
-## The app uses redis, so you
-
 ## React components are found within app/assets/javascripts/components
 
 ### Rails is an MVC framework, so here is the flow:
